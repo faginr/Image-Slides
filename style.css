@@ -6,3 +6,21 @@ body {
     font-family: 'Josefin Slab', serif;
 
 }
+
+.slide-container {
+    max-width: 95vw;
+    position: relative;
+    margin: auto;
+}
+
+.slide-text {
+    color: #fff;
+    font-size: 12px;
+}
+
+.slide-num {
+    color: #fff;
+    font-size: 12px;
+
+}
+
