@@ -9,7 +9,7 @@
     <title>Image Slides</title>
 </head>
 
-<body>
+<body onload="displaySlide(0)">
     <div class="slide-container">
 
         <div class="slide">
@@ -32,13 +32,16 @@
 
         <a href="prev"></a>
         <a href="next"></a>
+
+        <div class="dot-container">
+            <div class="dot" onclick="displaySlide(0)"></div>
+            <div class="dot" onclick="displaySlide(1)"></div>
+            <div class="dot" onclick="displaySlide(2)"></div>
+        </div>
+
     </div>
     
-    <div class="dot-container">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-    </div>
+   
 
 </body>
 
